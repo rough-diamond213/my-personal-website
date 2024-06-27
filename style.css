@@ -75,14 +75,17 @@ ul, li, a{
     background-repeat: no-repeat;
 }
 
-.container-text .title{
+.title{
     font-size: xx-large;
     font-weight: 700;
     text-align: center;
+    
 }
 
 #opening-tag{
     font-size: 150px;
+    width: 90%;
+    margin: auto;
 }
 
 #closing-tag{
@@ -93,6 +96,8 @@ ul, li, a{
 .name{
     font-size: 20px;
     line-height: 45px;
+    width: 75%;
+    margin: auto;
 }
 
 .my-name{
