@@ -72,7 +72,6 @@ ul, li, a{
     height: 100vh;
     background-image: url(/photo/rough-diamond.png);
     background-position: center;
-    /*background-size: cover;*/
     background-repeat: no-repeat;
 }
 
