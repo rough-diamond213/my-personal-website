@@ -11,7 +11,7 @@ body{
 }
 
 .nav-bar{
-    background-color: rgb(248, 248, 241);
+    background-color: rgb(175, 175, 173);
     height: 100px;
     display: flex;
     border-bottom: 1px solid rgb(187, 187, 184);
@@ -44,7 +44,7 @@ ul, li, a{
 }
 
 .container{
-    background-image: url(/photo/favicon.jpg);
+    background-image: url(/photo/background-pic.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -60,35 +60,29 @@ ul, li, a{
 }
 
 .container-text{
-    background-color:rgb(245, 245, 245) ;
     border-radius: 25px;
     width: 85%;
     margin: auto;
-    height: 70vh;
-    content: "";
-    opacity: 50%;
+    height: 80vh;
+    position: relative;
 }
 
 
-/*.container2{
+.container2{
     height: 100vh;
-    background-image: url(/photo/ikp.jpg);
+    background-image: url(/photo/rough-diamond.png);
     background-position: center;
-    background-size: cover;
-    border-radius: 30px;
+    /*background-size: cover;*/
+    background-repeat: no-repeat;
 }
-.container2 img{
-    border-radius: 25px;
-    width: 100%;
-    align-items: center;
-}*/
 
-.title{
+.container-text .title{
     font-size: xx-large;
     font-weight: 700;
+    text-align: center;
 }
 
-/*#opening-tag{
+#opening-tag{
     font-size: 150px;
 }
 
@@ -108,4 +102,4 @@ ul, li, a{
 
 span{
     font-size: 50px;
-}*/
+}
