@@ -69,9 +69,7 @@ ul, li, a{
     opacity: 50%;
 }
 
-.container-text::before{
-    
-}
+
 /*.container2{
     height: 100vh;
     background-image: url(/photo/ikp.jpg);
@@ -88,7 +86,6 @@ ul, li, a{
 .title{
     font-size: xx-large;
     font-weight: 700;
-    fo;
 }
 
 /*#opening-tag{
