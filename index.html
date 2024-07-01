@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>my world</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="icon" type="image/jpg" href="/photo/web-icon.jpg" size="30x30" />
+    <link rel="icon" type="image/jpg" href="/photo/web-icon.jpg" />
   </head>
   <body>
     <header class="nav-bar">
@@ -31,17 +31,20 @@
           </p>
           <h2 id="opening-tag">&lt;</h2>
           <div class="name">
-            <p class="my-name">Ikponmwenosa <span>Ediagbonya</span><br><small>(Rough Diamond)</small></p>
+            <p data-testid="slackDisplayName" class="my-name">Ikponmwenosa <span>Ediagbonya</span><br><small>(Rough Diamond)</small></p>
             <p>Front-end and WordPress Developer</p>
             <p>
               My simple plan for the next 2 years, is to be a full stack
-              developer
+              developer.
             </p>
+            <p data-testid="slackEmail"> Email: ediagbonya213@gmail.com</p>
           </div>
           <h2 id="closing-tag">/&gt;</h2>
         </div>
       </div>
-      <div class="container2"></div>
+      <div class="container2">
+        <img data-testid="slackProfilePicture" src="./photo/rough-diamond.png" alt="my-picture">
+      </div>
     </main>
   </body>
 </html>
