@@ -44,7 +44,7 @@ ul, li, a{
 }
 
 .container{
-    background-image: url(/photo/background-pic.jpg);
+    background-image: url(./photo/background-pic.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
