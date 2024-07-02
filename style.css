@@ -73,8 +73,13 @@ ul, li, a{
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.dt{
+    margin-bottom: 30px;
 }
 
 .title{
@@ -108,4 +113,22 @@ ul, li, a{
 
 span{
     font-size: 50px;
+}
+
+.dt p{
+    font-size: 50px;
+}
+
+footer{
+    background-color: rgb(175, 175, 173);
+    border-top: 1px solid rgb(187, 187, 184);
+}
+
+.foot{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    font-size: 25px;
 }
