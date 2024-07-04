@@ -14,6 +14,7 @@ body{
     background-color: rgb(175, 175, 173);
     height: 100px;
     display: flex;
+    position: relative;
     border-bottom: 1px solid rgb(187, 187, 184);
 }
 
@@ -22,7 +23,7 @@ body{
     align-items: center;
     justify-content: space-between;
     width: 95%;
-    margin: 0 auto;    
+    margin:0 auto;    
 }
 
 .header-left{
@@ -37,10 +38,16 @@ body{
 
 ul, li, a{
     list-style: none;
-    display: inline;
+    display: flex;
+    align-items: center;
     text-decoration: none;
     margin: 20px;
     color: black;
+}
+
+.menu-icon{
+    font-size: 30px;
+    display: none; 
 }
 
 .container{
@@ -48,28 +55,26 @@ ul, li, a{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    
+}
+
+.g-container{
+    width: 90%;
+    margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 4rem;
+    gap: 7rem;
+    padding-top: 50px;
 }
 
-.container1, .container2{
+.container-text, .container-img{
     flex: 1;
 }
 
-.container-text{
-    border-radius: 25px;
-    width: 85%;
-    margin: auto;
-    height: 80vh;
-    position: relative;
-}
 
-
-.container2{
-    height: 100vh;
+.container-img{
+    
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
@@ -92,7 +97,6 @@ ul, li, a{
 #opening-tag{
     font-size: 150px;
     width: 90%;
-    margin: auto;
 }
 
 #closing-tag{
@@ -104,7 +108,7 @@ ul, li, a{
     font-size: 20px;
     line-height: 45px;
     width: 75%;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .my-name{
@@ -132,4 +136,45 @@ footer{
     margin: auto;
     font-size: 25px;
     font-weight: bold;
+}
+
+
+@media (min-width:375px) and (max-width:1440px){
+    #menu-list{
+        position: absolute;
+        top: 70%;
+        right: 0;
+        left: 0;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(175, 175, 173);
+        margin: 0;
+        overflow: hidden;
+        transition: all 0.5s;
+    }
+
+   .menu-icon{
+    display: block;
+   }
+
+   .menu-bar{
+    cursor: pointer;
+   }
+
+   .g-container{
+    flex-direction: column-reverse;
+    
+   }
+
+   .container-text{
+    font-size: 20px;
+   }
+
+   img{
+    width: 90%;
+   }
+
+   .foot{
+    flex-direction: column;
+   }
 }
