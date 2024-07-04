@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>my world</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="icon" type="image/jpg" href="./photo/web-icon.jpg" />
   </head>
   <body>
@@ -14,17 +15,20 @@
           <p><a href="#">ROUGH DIAMOND</a></p>
         </div>
         <div class="header-right">
-          <ul>
+          <ul id="menu-list">
             <li><a href="#">Home</a></li>
             <li><a href="#">about</a></li>
             <li><a href="#">Services</a></li>
             <li><a href="#">Contact</a></li>
           </ul>
         </div>
+        <div class="menu-icon">
+          <i class="fa-solid fa-bars menu-bar"></i>
+        </div>
       </nav>
     </header>
     <main class="container">
-      <div class="container1">
+      <div class="g-container">
         <div class="container-text">
           <p class="title">
             Welcome to my little world, where each day count for growth only:
@@ -38,15 +42,14 @@
             </p>
             <p>Front-end and WordPress Developer</p>
             <p>
-              My simple plan for the next 2 years, is to be a full stack
+              My simple plan for the next 2 years: <br>Is to be a full stack
               developer.
             </p>
             <p data-testid="slackEmail">Email: ediagbonya213@gmail.com</p>
           </div>
           <h2 id="closing-tag">/&gt;</h2>
         </div>
-      </div>
-      <div class="container2">
+      <div class="container-img">
         <div class="dt">
           <p data-testid="currentTimeUTC">
             Time: <span id="currentTime"></span>
@@ -59,6 +62,7 @@
           alt="my-picture"
         />
       </div>
+    </div>
     </main>
     <footer>
       <div class="foot">
