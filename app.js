@@ -29,5 +29,3 @@ menuBar.addEventListener('click', (e)=>{
 
     }
 });
-
-
